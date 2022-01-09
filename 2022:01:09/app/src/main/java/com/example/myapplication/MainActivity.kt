@@ -21,7 +21,24 @@ class MainActivity : AppCompatActivity() {
             if(counter==2){ textview.setText("nothello")
                 counter=0}
 
+
         }
+
+
+        var x = 5
+        when(x){
+            1 -> println("x==1")
+            2,3-> println("x==2,3")
+            in 4..7 ->println("4부터 7사이")
+            !in 8..10 -> println("8부터 10사이가 아님")
+            else ->{
+                println("x는 1이나 2가 아님")
+            }
+
+
+        }
+
+
 
 
 
