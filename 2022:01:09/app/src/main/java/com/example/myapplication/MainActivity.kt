@@ -45,6 +45,20 @@ class MainActivity : AppCompatActivity() {
         }
 
 
+        class Person{
+
+            val x = 123
+            val z = 55
+            val y = "123"
+        }
+
+        val person = Person()
+        person.x
+        person.z
+        person.y
+        println(person.y)
+
+
 
     }
 }
