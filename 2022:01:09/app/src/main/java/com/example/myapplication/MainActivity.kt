@@ -38,9 +38,11 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        val numbers = arrayOf(1,2,3,4,5)
 
-
-
+        for(num in numbers){
+            println(num)
+        }
 
 
 
